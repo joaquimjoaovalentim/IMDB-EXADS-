@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose a movie</title>
+
+    <link rel="stylesheet" href="/ThirdPage/ThirdPage.css">
+</head>
+
+<body>
+    <script src="/ThirdPage/ThirdPage.js"></script>
+    <img id="logo" src="/resources/logo.png">
+    <img id="progress1" src="/resources/Progress3.png">
+    <p id="choose">Which one do you want to watch now?</p>
+
+    <div class="TFilms">
+        <div class="Cbatman">
+            <img class="top-img" src="/resources/Overlay.png" onclick="infinitywarToIMDB()">
+            <img id="minions" class="imageresponsive" src="/resources/TFILMS/InfinityWar.jpeg">
+
+        </div>
+        <div class="Cspiderman">
+            <img class="top-img" src="/resources/Overlay.png" onclick="deadpoolToIMDB()">
+            <img id="blonde" class="imageresponsive" src="/resources/TFILMS/Deadpool.jpeg">
+        </div>
+        <div class="Cflash">
+            <img class="top-img" src="/resources/Overlay.png" onclick="antmanToIMDB()">
+            <input type="image" class="imageresponsive" id="image" src="/resources/TFILMS/AntMan.jpg">
+        </div>
+    </div>
+</body>
+
+</html>

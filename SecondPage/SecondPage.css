@@ -1,0 +1,97 @@
+body {
+    background-image: url(/resources/MoviesBg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 20px;
+
+    position: absolute;
+    width: 187px;
+    height: 62px;
+
+    left:44%;
+    top: 3%;
+}
+
+#progress2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 220px;
+    height: 97px;
+    left: 50.05%;
+    top: 25%;
+    transform: translate(-40%, -40%);
+}
+
+#choose {
+    position: absolute;
+    width: 484px;
+    height: 40px;
+    left: 53%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 40px;
+    color: white;
+}
+
+.imageresponsive {
+    position: static;
+    width: 200px;
+    height: 291px;
+    border-radius: 5%;
+}
+
+.imageresponsive:hover {
+    background: url(/resources/Overlay.png);
+}
+
+.SFilms {
+    top: 70%;
+    width: 800px;
+    height: 50%;
+    left: 58%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.Ctopgun {
+    display: inline-flex;
+}
+
+.Cbullettrain {
+    display: inline-flex;
+}
+
+.Cthor {
+    display: inline-flex;
+}
+
+.top-img {
+    position: absolute;
+    left: auto;
+    top: auto;
+    opacity: 0;
+    border-radius: 5%;
+}
+
+.top-img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#image:hover {
+    background: url(/resources/Overlay.png);
+}
